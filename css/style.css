@@ -1,0 +1,146 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+html, body {
+    height: auto;
+    min-height: 100vh;
+}
+html {
+    background-image: radial-gradient(circle at 43.38% 87.57%, #b371ff 0, #8357ff 25%, #3c3cf2 50%, #0026dc 75%, #001aca 100%);
+}
+
+input:focus {
+    outline: none;
+}
+
+#register-container {
+    max-width: 900px;
+    min-height: 80vh;
+    margin: 2rem auto;
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#register-banner {
+    background-image: url("../img/laptop-notebook-work-keyboard.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+
+#banner-layer {
+    background-color: rgba(25, 11, 122, 0.7);
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+}
+#register-banner h1 {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    color: #fff;
+    word-spacing: 50rem; /* Quebra a palavra na linha automaticamente */
+}
+
+form  {
+    background-color: #fdfdfd;
+    padding: 2rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2.2rem;
+}
+
+form p {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+.form-control {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.form-control label {
+    font-weight: bold;
+    margin-bottom: .6rem;
+}
+.form-control input {
+    border: none;
+    border-bottom: 1px solid #aaa;
+    padding: .6rem 0;
+}
+
+#generate-password {
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+#generate-password:hover {
+    color: #001aca;
+}
+
+form #generation-password {
+    border: 1px solid #0099ff;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: .4rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1rem;
+    /*display: none;*/
+}
+
+form #generation-password p {
+    color: #0099ff;
+    margin-bottom: 0.5rem;
+}
+
+form input[type="submit"] {
+    background-color: #0099ff;
+    color: #fff;
+    opacity: 0.8;
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 1.4rem;
+    max-width: 150px;
+    cursor: pointer;
+    align-self: flex-end;
+    transition: .4s;
+}
+
+form input[type="submit"]:hover {
+    opacity: 1;
+}
+
+#copypassword {
+    background-color: transparent;
+    border:1px solid #0099ff;
+    color: #0099ff;
+    padding: 0.5rem 1rem;
+    margin: 1rem auto;
+    border-radius: 1.6rem;
+    cursor:pointer;
+    transition: .4s;
+}
+
+#copypassword:hover {
+    color: #fff;
+    background-color: #2eabff;
+}
+
+
